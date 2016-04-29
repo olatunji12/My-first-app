@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myAttendance" >
+<head>
+	<title>Attendance</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <link rel="stylesheet" type="text/css" href="best.css">
+</head>
+<body>
+    <div ng-controller="myList">
+        <form>
+            <div id="lite">
+                <p><h2>First name</h2></p><input type="text" ng-model="name.first" placeholder="Enter your first name here"><br>
+                <p><h2>Last name</h2></p><input type="text" ng-model="name.last"></br></br>
+                <button ng-click="addNames()"><h2>Add Attendance</h2></button>
+            </div>
+        </form>
+</body>
+</html>

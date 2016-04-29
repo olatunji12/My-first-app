@@ -1,0 +1,35 @@
+body{
+	background-color: #00FFFF;
+}
+input{
+	width: 350px;
+	height: 60px;
+	border-radius: 1px;
+	border: 1px solid #696;
+	border-radius: 10px;
+}
+
+#main {
+	width: 700px;
+	height: 500px;
+	margin: auto;
+	border-radius: 20px;
+	background-color: #00FFFF;
+	margin: auto;
+
+}
+#lite {
+	width: 400px;
+	height: 300px;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 170px;
+}
+button {
+	width: 350px;
+	height: 60px;
+	border-radius: 1px;
+	border: 1px solid #696;
+	border-radius: 10px;
+}
+
